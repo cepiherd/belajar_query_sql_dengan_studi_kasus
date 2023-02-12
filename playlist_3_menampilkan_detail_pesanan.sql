@@ -12,7 +12,7 @@ JOIN OrderDetails as c ON a.OrderID = c.OrderID
 WHERE a.CustomerID = 61
 
 
--- versi lengkap (ditambahkan relasti dengan table products)
+-- versi lengkap (ditambahkan relasi dengan table products)
 SELECT  
     a.OrderDate,
     a.OrderID,
